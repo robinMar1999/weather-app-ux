@@ -1,0 +1,51 @@
+body{
+    color:rgb(66, 63, 64);
+    font-family: sans-serif;
+    max-width: 650px;
+    margin:0 auto;
+    padding: 0 15px;
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow:1;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+header a{
+    font-size: 20px;
+    color: rgb(158, 134, 134);
+    margin-right: 10px;
+    text-decoration: none;
+}
+footer{
+    margin:10px 0;
+    padding:10px;
+    border-top: 1px solid rgb(204, 201, 201);
+}
+#msg{
+    color:red;
+}
+img{
+    width: 30%;
+}
+input{
+    border: 1px solid grey;
+    padding:5px;
+    border-radius: 1px;
+}
+button{
+    border:1px solid blue;
+    background-color: blue;
+    color:white;
+    padding:5px;
+    margin-left: 10px;
+}
