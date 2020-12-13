@@ -3,7 +3,7 @@ weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault();
     document.querySelector("#message").textContent="Loading..."
     const address=document.querySelector('input').value;
-    fetch('http://localhost:4000/weather?address='+address).then((response)=>{
+    fetch('/weather?address='+address).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
                 document.querySelector("#message").textContent=data.error;
