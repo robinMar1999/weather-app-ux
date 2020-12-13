@@ -1,8 +1,3 @@
-console.log('From the javascript file');
-
-
-
-
 const weatherForm=document.querySelector('form')
 weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault();
